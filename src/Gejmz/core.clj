@@ -23,15 +23,15 @@
 		(alter simulation check-bounds (width) (height)))
 	(doseq [{x :x y :y} (loop-sim)]
 		(draw-dot x y)))
-				
+
 (defn on-key [])
-	
-(defsketch example                
+
+(defsketch example               
 	:title "GEJMZ!"
-	:setup setup           
-	:draw draw  
-	:key-pressed on-key          
+	:setup setup
+	:draw draw
+	:key-pressed on-key
 	:size [w h])
-	
+
 ; (defn -main []
 ; 	(println "Starting..."))
