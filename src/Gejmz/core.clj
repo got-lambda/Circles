@@ -21,7 +21,6 @@
 	(dosync
 		(alter simulation tick-sim)
 		(alter simulation check-bounds (width) (height)))
-	(pre-draw-dots)
 	(doseq [{x :x y :y} (loop-sim)]
 		(draw-dot x y)))
 				
