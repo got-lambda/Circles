@@ -33,5 +33,5 @@
 	:key-pressed on-key
 	:size [w h])
 
-; (defn -main []
-; 	(println "Starting..."))
+(defn -main []
+	(println "Starting..."))
